@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turnos</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>La casa de atras</h1>
+    </header>
+    <div class="formulario-div">
+        <div class="formulario">
+            <form id="miFormulario">
+                <fieldset>
+                    <legend>TURNOS</legend>
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" name="apellido">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" id="telefono" name="telefono">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label>Servicios:</label><br>
+                        <div class="checkbox-group" id="servicio">
+                            <input type="checkbox" id="corte" name="servicio" value="Corte">
+                            <label for="corte">Corte</label>
+                            <input type="checkbox" id="corte_barba" name="servicio" value="Corte y Barba">
+                            <label for="corte_barba">Corte y Barba</label>
+                            <input type="checkbox" id="barba" name="servicio" value="Barba">
+                            <label for="barba">Barba</label>
+                            <input type="checkbox" id="afeitado" name="servicio" value="Afeitado tradicional">
+                            <label for="afeitado">Afeitado tradicional</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Barbero:</label><br>
+                        <div class="checkbox-group" id="barberos">
+                            <input type="checkbox" id="leandro" name="barbero" value="Leandro">
+                            <label for="leandro">Leandro</label>
+                            <input type="checkbox" id="facundo" name="barbero" value="Facundo">
+                            <label for="facundo">Facundo</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="fecha">Fecha:</label>
+                        <input type="date" id="fecha" name="fecha">
+                    </div>
+                    <div class="form-group">
+                        <label for="hora">Hora:</label>
+                        <input type="time" id="hora" name="hora">
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <button class="Boton-turno"><a href="./misturnos.html">Mis turnos</a></button>
+    <script src="./formulario-turnos.js"></script>
+</body>
+</html>
