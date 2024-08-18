@@ -1,0 +1,103 @@
+{
+    "socios": [
+      {
+        "numero_socio": "000001",
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "cantidad_cortes": 5,
+        "barbero_mas_cortes": "Facundo"
+      },
+      {
+        "numero_socio": "000002",
+        "nombre": "Marcos",
+        "apellido": "González",
+        "cantidad_cortes": 3,
+        "barbero_mas_cortes": "Leandro"
+      },
+      {
+        "numero_socio": "000003",
+        "nombre": "Pedro",
+        "apellido": "Sánchez",
+        "cantidad_cortes": 7,
+        "barbero_mas_cortes": "Facundo"
+      },
+      {
+        "numero_socio": "000004",
+        "nombre": "Lucas",
+        "apellido": "Fernández",
+        "cantidad_cortes": 2,
+        "barbero_mas_cortes": "Leandro"
+      },
+      {
+        "numero_socio": "000005",
+        "nombre": "Mateo",
+        "apellido": "Rodríguez",
+        "cantidad_cortes": 10,
+        "barbero_mas_cortes": "Facundo"
+      },
+      {
+        "numero_socio": "000006",
+        "nombre": "Nicolás",
+        "apellido": "López",
+        "cantidad_cortes": 4,
+        "barbero_mas_cortes": "Leandro"
+      },
+      {
+        "numero_socio": "000007",
+        "nombre": "Alejandro",
+        "apellido": "Martínez",
+        "cantidad_cortes": 6,
+        "barbero_mas_cortes": "Facundo"
+      },
+      {
+        "numero_socio": "000008",
+        "nombre": "Tomás",
+        "apellido": "Gutiérrez",
+        "cantidad_cortes": 8,
+        "barbero_mas_cortes": "Leandro"
+      },
+      {
+        "numero_socio": "000009",
+        "nombre": "Gabriel",
+        "apellido": "Díaz",
+        "cantidad_cortes": 9,
+        "barbero_mas_cortes": "Facundo"
+      },
+      {
+        "numero_socio": "000010",
+        "nombre": "Fernando",
+        "apellido": "Castro",
+        "cantidad_cortes": 3,
+        "barbero_mas_cortes": "Leandro"
+      },
+      {
+        "numero_socio": "000011",
+        "nombre": "Fernando",
+        "apellido": "Leiras",
+        "cantidad_cortes": 7,
+        "barbero_mas_cortes": "Leandro"
+      },
+      {
+        "numero_socio": "000012",
+        "nombre": "Federico",
+        "apellido": "Conde",
+        "cantidad_cortes": 3,
+        "barbero_mas_cortes": "Facundo"
+      },
+      {
+        "numero_socio": "000013",
+        "nombre": "Pepe",
+        "apellido": "Herrera",
+        "cantidad_cortes": 8,
+        "barbero_mas_cortes": "Facundo"
+      },
+      {
+        "numero_socio": "000014",
+        "nombre": "Fernando",
+        "apellido": "Ruiz diaz",
+        "cantidad_cortes": 6,
+        "barbero_mas_cortes": "Leandro"
+      }
+    ]
+  }
+  

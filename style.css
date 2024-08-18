@@ -3,28 +3,30 @@
     margin: 0;
     box-sizing: border-box;
 }
-body {
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: black;
-}
-
-header {
-    margin-bottom: 20px; 
-}
 
 h1 {
-    color: #F9ECCC;
-    text-align: center;
+    text-align: center; 
+    margin: 0;
+    font-size: 2.5em; 
+}
+
+.imagen-index img {
+    display: block; 
+    max-width: 80%; 
+    height: auto; 
+    margin: 20px auto 0; 
 }
 
 .formulario-div {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 80vh; 
+}
+
+.formulario {
     width: 100%;
-    max-width: 600px;
+    max-width: 600px; 
     background-color: #F9ECCC;
     padding: 20px;
     border-radius: 8px;
@@ -38,7 +40,7 @@ fieldset {
 legend {
     text-align: center;
     font-size: 1.5em;
-    margin-bottom: 10px;
+    margin-top: 15px;
     color: #000;
 }
 
@@ -91,18 +93,52 @@ input[type="submit"]:hover {
     background-color: #555;
 }
 
-.Boton-turno{
-    margin: 50px;
-    width: 100px;
-    height: 100px;
-    background-color: #fff;
+.barbero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
 }
-.Boton-turno a{
-    color: black;
+.barbero-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer; 
+    text-align: center; 
+}
+.barbero-img {
+    width: 120px; 
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.checkbox-group {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+.Boton-turno {
+    background-color: green;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    display: block; 
+    margin: 20px auto; 
+}
+
+.Boton-turno a {
+    color: white;
     text-decoration: none;
 }
-.Boton-turno :hover{
-    font-size: 25px;
+
+.Boton-turno:hover {
+    background-color: #0056b3;
 }
 
 #contenedor-turnos {
@@ -127,24 +163,19 @@ h2 {
     font-size: 18px;
     color: #333;
 }
-
 p {
     margin: 5px 0;
     color: #555;
 }
-
 strong {
     color: #333;
 }
-
-
 .contenedor-principal {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-
 .contenedor {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -154,7 +185,6 @@ strong {
     justify-items: center;
     align-items: center;
 }
-
 .cuadro {
     display: flex;
     flex-direction: column;
@@ -165,12 +195,10 @@ strong {
     height: 200px;
     margin: 10px;
 }
-
 .cuadro p {
     font-size: 20px; 
     font-weight: bold;
 }
-
 .boton-principal{
     margin-top: 20px; 
     background-color: green;
@@ -181,9 +209,74 @@ strong {
     font-size: 16px;
     border-radius: 8px;
 }
-
+.boton-principal:hover{
+    background-color: #0056b3;
+}
 .boton-principal a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
-
+#socios-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    padding: 20px; 
+    justify-content: center; 
+  }
+  .socio-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    width: 200px; 
+    background-color: #f9f9f9;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+  }
+  .socio-card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .socio-card p {
+    margin: 5px 0;
+  } 
+.header-container {
+    display: flex;
+    justify-content: flex-start; 
+    padding: 20px; 
+}
+.header-container-socios{
+    display: flex;
+    justify-content: flex-end; 
+}
+#verSocios {
+    background-color: green;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+#verSocios a {
+    color: white;
+    text-decoration: none;
+}
+#verSocios:hover {
+    background-color: #0056b3;
+}
+#volver {
+    background-color: green;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+#volver a {
+    color: white;
+    text-decoration: none;
+}
+#volver:hover {
+    background-color: #0056b3;
+}
